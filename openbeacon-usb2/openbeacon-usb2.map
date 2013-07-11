@@ -1139,74 +1139,74 @@ OUTPUT(openbeacon-usb2.elf elf32-littlearm)
  .debug_ranges  0x00001280      0x158 ../core/openbeacon/src/xxtea.o
  .debug_ranges  0x000013d8       0xa8 ../core/openbeacon/src/debug_printf.o
 
-.debug_str      0x00000000     0x2015
- .debug_str     0x00000000      0x7bb src/main.o
-                                0x835 (size before relaxing)
- .debug_str     0x000007bb      0x524 src/pmu.o
+.debug_str      0x00000000     0x2049
+ .debug_str     0x00000000      0x79f src/main.o
+                                0x819 (size before relaxing)
+ .debug_str     0x0000079f      0x574 src/pmu.o
                                 0xb33 (size before relaxing)
- .debug_str     0x00000cdf      0x163 src/nRF_CMD.o
+ .debug_str     0x00000d13      0x163 src/nRF_CMD.o
                                 0xba0 (size before relaxing)
- .debug_str     0x00000e42      0x255 src/nRF_API.o
+ .debug_str     0x00000e76      0x255 src/nRF_API.o
                                 0x3b1 (size before relaxing)
- .debug_str     0x00001097      0x2ac src/storage.o
+ .debug_str     0x000010cb      0x2ac src/storage.o
                                 0x47c (size before relaxing)
- .debug_str     0x00001343       0x64 src/customIO.o
+ .debug_str     0x00001377       0x64 src/customIO.o
                                 0x1ba (size before relaxing)
- .debug_str     0x000013a7       0x48 src/bluetooth.o
+ .debug_str     0x000013db       0x48 src/bluetooth.o
                                 0x36f (size before relaxing)
- .debug_str     0x000013ef       0x62 src/dtn_queue.o
+ .debug_str     0x00001423       0x62 src/dtn_queue.o
                                 0x205 (size before relaxing)
- .debug_str     0x00001451       0x5c src/3d_acceleration.o
+ .debug_str     0x00001485       0x5c src/3d_acceleration.o
                                 0x373 (size before relaxing)
- .debug_str     0x000014ad      0x139 ../core/cmsis/src/core_cm3.o
+ .debug_str     0x000014e1      0x139 ../core/cmsis/src/core_cm3.o
                                 0x24e (size before relaxing)
- .debug_str     0x000015e6       0x5c ../core/cmsis/src/system_LPC13xx.o
+ .debug_str     0x0000161a       0x5c ../core/cmsis/src/system_LPC13xx.o
                                 0x419 (size before relaxing)
- .debug_str     0x00001642      0x113 ../core/startup/LPC13xx.o
+ .debug_str     0x00001676      0x113 ../core/startup/LPC13xx.o
                                 0x1f3 (size before relaxing)
- .debug_str     0x00001755       0xef ../core/peripherals/src/uart.o
+ .debug_str     0x00001789       0xef ../core/peripherals/src/uart.o
                                 0xb14 (size before relaxing)
- .debug_str     0x00001844       0x28 ../core/peripherals/src/gpio.o
+ .debug_str     0x00001878       0x28 ../core/peripherals/src/gpio.o
                                 0x40c (size before relaxing)
- .debug_str     0x0000186c       0x29 ../core/peripherals/src/usb/cdcusbdesc.o
+ .debug_str     0x000018a0       0x29 ../core/peripherals/src/usb/cdcusbdesc.o
                                 0x165 (size before relaxing)
- .debug_str     0x00001895       0x26 ../core/peripherals/src/usb/cdcuser.o
+ .debug_str     0x000018c9       0x26 ../core/peripherals/src/usb/cdcuser.o
                                 0x162 (size before relaxing)
- .debug_str     0x000018bb       0x26 ../core/peripherals/src/usb/usbcore.o
+ .debug_str     0x000018ef       0x26 ../core/peripherals/src/usb/usbcore.o
                                 0x162 (size before relaxing)
- .debug_str     0x000018e1       0x24 ../core/peripherals/src/usb/usbhw.o
+ .debug_str     0x00001915       0x24 ../core/peripherals/src/usb/usbhw.o
                                 0x160 (size before relaxing)
- .debug_str     0x00001905       0x26 ../core/peripherals/src/usb/usbuser.o
+ .debug_str     0x00001939       0x26 ../core/peripherals/src/usb/usbuser.o
                                 0x162 (size before relaxing)
- .debug_str     0x0000192b       0x1e ../core/freertos/src/heap_2.o
+ .debug_str     0x0000195f       0x1e ../core/freertos/src/heap_2.o
                                 0x103 (size before relaxing)
- .debug_str     0x00001949       0x1c ../core/freertos/src/list.o
+ .debug_str     0x0000197d       0x1c ../core/freertos/src/list.o
                                 0x101 (size before relaxing)
- .debug_str     0x00001965       0x1d ../core/freertos/src/queue.o
+ .debug_str     0x00001999       0x1d ../core/freertos/src/queue.o
                                 0x102 (size before relaxing)
- .debug_str     0x00001982       0x1d ../core/freertos/src/tasks.o
+ .debug_str     0x000019b6       0x1d ../core/freertos/src/tasks.o
                                 0x102 (size before relaxing)
- .debug_str     0x0000199f      0x148 ../core/openbeacon/src/msd.o
+ .debug_str     0x000019d3      0x148 ../core/openbeacon/src/msd.o
                                 0x55c (size before relaxing)
- .debug_str     0x00001ae7      0x27d ../core/openbeacon/src/vfs.o
+ .debug_str     0x00001b1b      0x27d ../core/openbeacon/src/vfs.o
                                 0x554 (size before relaxing)
- .debug_str     0x00001d64       0x1d ../core/openbeacon/src/hid.o
+ .debug_str     0x00001d98       0x1d ../core/openbeacon/src/hid.o
                                 0x159 (size before relaxing)
- .debug_str     0x00001d81       0x9d ../core/openbeacon/src/spi.o
+ .debug_str     0x00001db5       0x9d ../core/openbeacon/src/spi.o
                                 0x666 (size before relaxing)
- .debug_str     0x00001e1e       0x42 ../core/openbeacon/src/iap.o
+ .debug_str     0x00001e52       0x42 ../core/openbeacon/src/iap.o
                                 0x189 (size before relaxing)
- .debug_str     0x00001e60       0x2e ../core/openbeacon/src/crc8.o
+ .debug_str     0x00001e94       0x2e ../core/openbeacon/src/crc8.o
                                 0x17e (size before relaxing)
- .debug_str     0x00001e8e       0x26 ../core/openbeacon/src/crc16.o
+ .debug_str     0x00001ec2       0x26 ../core/openbeacon/src/crc16.o
                                 0x185 (size before relaxing)
- .debug_str     0x00001eb4       0x4d ../core/openbeacon/src/xxtea.o
+ .debug_str     0x00001ee8       0x4d ../core/openbeacon/src/xxtea.o
                                 0x19e (size before relaxing)
- .debug_str     0x00001f01       0x1e ../core/openbeacon/src/rfid.o
+ .debug_str     0x00001f35       0x1e ../core/openbeacon/src/rfid.o
                                 0x15a (size before relaxing)
- .debug_str     0x00001f1f       0x24 ../core/openbeacon/src/persistent.o
+ .debug_str     0x00001f53       0x24 ../core/openbeacon/src/persistent.o
                                 0x160 (size before relaxing)
- .debug_str     0x00001f43       0xd2 ../core/openbeacon/src/debug_printf.o
+ .debug_str     0x00001f77       0xd2 ../core/openbeacon/src/debug_printf.o
                                 0x261 (size before relaxing)
 
 .comment        0x00000000       0x2a

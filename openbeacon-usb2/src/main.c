@@ -603,7 +603,7 @@ main (void)
 		checkSleepForever();
 
 		// DTNMsg generation
-		if(LPC_TMR32B0->TC - time >= 30)
+		if(LPC_TMR32B0->TC - time >= 10)
 			//if(onemsg<1)
 		{
 			msg.from = htons (tag_id);
@@ -651,8 +651,8 @@ main (void)
 					{
 						blink(2);
 						dtnMsg.msg.prop = dtnMsg.msg.prop +1;
-
 						Enqueue(dtnMsg.msg,Q);
+						
 						g_Log.time1 = ntohl(dtnMsg.msg.time);
 						g_Log.time2 = LPC_TMR32B0->TC;
 						g_Log.seq = ntohl(dtnMsg.msg.seq);

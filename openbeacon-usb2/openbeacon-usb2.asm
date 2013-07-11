@@ -1084,7 +1084,7 @@ Disassembly of section prog:
      d50:	9a06      	ldr	r2, [sp, #24]
      d52:	688e      	ldr	r6, [r1, #8]
      d54:	ebc2 0e06 	rsb	lr, r2, r6
-     d58:	f1be 0f1d 	cmp.w	lr, #29
+     d58:	f1be 0f09 	cmp.w	lr, #9
      d5c:	f200 811b 	bhi.w	f96 <main+0xb16>
      d60:	2002      	movs	r0, #2
      d62:	f000 fa03 	bl	116c <pmu_sleep_ms>
