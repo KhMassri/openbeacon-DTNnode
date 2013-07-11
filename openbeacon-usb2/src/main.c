@@ -66,6 +66,9 @@ static const uint32_t xxtea_key[XXTEA_BLOCK_COUNT] = {
 
 /* set nRF24L01 broadcast mac */
 static const unsigned char broadcast_mac[NRF_MAX_MAC_SIZE] = {0xE7,0xD3,0xF0,0x35,0x77};
+/*static const unsigned char broadcast_mac[NRF_MAX_MAC_SIZE] = {
+  1, 2, 3, 2, 1
+};*/
 static unsigned char my_mac[NRF_MAX_MAC_SIZE] = {0xAA,0xD3,0xF0,0x35,0xAA};
 
 /* OpenBeacon packet */
@@ -603,7 +606,7 @@ main (void)
 		checkSleepForever();
 
 		// DTNMsg generation
-		if(LPC_TMR32B0->TC - time >= 10)
+		if(LPC_TMR32B0->TC - time >= 15)
 			//if(onemsg<1)
 		{
 			msg.from = htons (tag_id);
